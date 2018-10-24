@@ -51,12 +51,24 @@ body{
 
 
 
-@media(max-width: 500px){
+@media(min-width: 500px){
 
 	#caixa{
 		background-color: red;
-		width: 100px;
-		height: 100px;
+		width: 300px;
+		height: 300px;
 	}
 
+}
+
+@media(min-width: 700px){
+	#caixa{
+		background-color: yellow;
+	}
+}
+
+@media(min-width: 1000px){
+	#caixa{
+		background-color: pink;
+	}
 }
