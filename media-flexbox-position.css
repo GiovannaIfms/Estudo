@@ -4,4 +4,59 @@
 }
 
 body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#caixa{
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+
+	/*Prende os filhos quando eles são absolute*/
+	position: relative;
+}
+
+.bolinha{
+	height: 30px;
+	width: 30px;
+	background-color: black;
+
+	border-radius: 50%;
+
+	position: absolute;
+}
+
+.b1{
+	top: 5px;
+	left: 5px;
+}
+
+.b2{
+	top: 5px;
+	right: 5px;
+}
+
+.b3{
+	bottom: 5px;
+	left: 5px;
+}
+
+.b4{
+	right: 5px;
+	bottom: 5px;
+}
+
+
+
+@media(max-width: 500px){
+
+	#caixa{
+		background-color: red;
+		width: 100px;
+		height: 100px;
+	}
+
 }
