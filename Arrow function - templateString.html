@@ -4,14 +4,17 @@
 		return a + b;
 	}
 
-	let soma2 = (a, b) => {
+	var soma2 = (a, b) => {
 		return a + b;
 	}
 
-	document.write("Soma1 = " + soma(1, 2));
+	var n1 = 2;
+	var n2 = 4;
+
+	document.write("Soma1(" + n1 + ", " + n2 + ") = " + soma(n1, n2));
 
 	document.write("<br/>");
 
-	document.write(`Soma2 =  ${soma2(1, 2)} `);
+	document.write(`Soma2(${n1}, ${n2}) =  ${soma2(n1, n2)} `);
 
 </script>

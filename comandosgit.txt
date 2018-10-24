@@ -1,0 +1,5 @@
+git init
+git config --global user.email "seu email"
+git config --global user.name "Vitor Hugo"
+git remote add origin "repositorio"
+(para colar algo= shift + insert)
